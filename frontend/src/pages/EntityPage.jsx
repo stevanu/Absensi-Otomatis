@@ -88,7 +88,7 @@ export default function EntityPage({ entityKey }) {
   return (
     <>
       <Topbar
-        title={`${entity.icon} ${entity.label}`}
+        title={`${entity.label}`}
         subtitle={
           entity.readOnly
             ? "Data hanya-baca (diperbarui dari perangkat / sinkronisasi)"
