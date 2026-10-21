@@ -43,7 +43,7 @@ export default function Dashboard() {
 
   return (
     <>
-      <Topbar title="📊 Dashboard" subtitle="Ringkasan kehadiran real-time" />
+      <Topbar title="Dashboard" subtitle="Ringkasan kehadiran real-time" />
       <div className="mx-auto max-w-6xl px-4 py-6">
         <PageHeader
           title="Dashboard Kehadiran"

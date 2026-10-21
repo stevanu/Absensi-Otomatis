@@ -48,7 +48,7 @@ export default function Settings() {
   return (
     <>
       <Topbar
-        title="🛠️ Pengaturan"
+        title="Pengaturan"
         subtitle="Penyimpanan, pencadangan & integrasi"
       />
       <div className="mx-auto max-w-3xl px-4 py-6">

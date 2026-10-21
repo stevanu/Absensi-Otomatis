@@ -61,7 +61,7 @@ export default function AIAssistant() {
   return (
     <>
       <Topbar
-        title="🤖 Asisten AI HRD"
+        title="Asisten AI"
         subtitle="Analisa, rekomendasi, dan jawab pertanyaan seputar karyawan"
       />
       <div className="mx-auto max-w-4xl px-4 py-6">

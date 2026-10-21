@@ -158,7 +158,7 @@ export default function Devices() {
   return (
     <>
       <Topbar
-        title="🔌 Perangkat"
+        title="Perangkat"
         subtitle="Deteksi LAN dan sinkronisasi mesin absensi"
       />
 
