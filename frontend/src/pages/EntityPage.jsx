@@ -10,14 +10,10 @@ import ConfirmDialog from "../fragments/ConfirmDialog.jsx";
 import Button from "../elements/Button.jsx";
 import Input from "../elements/Input.jsx";
 
-/**
- * One page to rule them all: any Sheets-backed entity renders through here.
- * search / add / edit / delete are generic; `readOnly` entities are list-only.
- */
 export default function EntityPage({ entityKey }) {
   const entity = ENTITIES[entityKey];
   const { toast } = useUI();
-  // Render langsung dari cache saat balik ke menu ini (tanpa spinner).
+  // Render langsung dari cache saat balik ke menu
   const initial = api.peek(`/${entityKey}`);
   const [rows, setRows] = useState(initial?.data || []);
   const [loading, setLoading] = useState(!initial);
@@ -30,7 +26,6 @@ export default function EntityPage({ entityKey }) {
   const load = useCallback(async () => {
     const q = search ? `?q=${encodeURIComponent(search)}` : "";
     const path = `/${entityKey}${q}`;
-    // Jangan tampilkan spinner kalau datanya sudah ada di cache.
     if (!api.peek(path)) setLoading(true);
     try {
       const res = await api.get(path);
