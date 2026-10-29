@@ -40,7 +40,7 @@ Karyawan, Perusahaan, Pengguna, Pengaturan — **plus Asisten AI HRD**.
 1. Buka https://script.google.com → **New Project**.
 2. Hapus isi `Code.gs`, lalu **paste** seluruh isi `integrations/google-apps-script.gs`.
 3. **Project Settings → Script Properties** → tambah `AUTH_TOKEN` (string acak, mis. `fsw_rahasia123`).
-4. Pilih fungsi `setupSheets` → klik **Run ▶** (izin akses Spreadsheet).
+4. Pilih fungsi `setupSheets` → klik **Run** (izin akses Spreadsheet).
 5. **Deploy → New Deployment → Web app**:
    - Execute as: **Me**
    - Who has access: **Anyone** (token tetap menyaring akses)
