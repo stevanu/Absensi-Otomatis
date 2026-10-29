@@ -93,7 +93,7 @@ Di produksi, cukup jalankan backend — ia menyajikan `frontend/dist` secara oto
 
 ---
 
-## 5. Menyambungkan Mesin Absensi (Revo W-230N / lainnya)
+## 5. Menyambungkan Mesin Absensi 
 
 1. Pastikan PC dan mesin **se-jaringan (LAN sama)**.
 2. Buka menu **Perangkat → Pindai LAN**. Host yang merespons port mesin akan muncul.
