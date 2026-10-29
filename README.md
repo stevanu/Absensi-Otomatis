@@ -5,7 +5,7 @@ Log Absensi, Timesheet, Laporan, Jadwal & Shift, Cuti & Izin, Lembur, Hari Libur
 Karyawan, Perusahaan, Pengguna, Pengaturan — **plus Asisten AI HRD**.
 
 > Dibangun dengan React + Tailwind (frontend) dan Node/Express (backend).
-> **Tanpa data dummy** — semua data berasal dari Google Sheets / perangkat nyata di LAN.
+> semua data berasal dari Google Sheets / perangkat nyata di LAN.
 
 ---
 
